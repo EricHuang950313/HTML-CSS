@@ -1,0 +1,18 @@
+#document{
+    color:chartreuse;
+    font-size:60px;
+}
+/* 建議一次使用 */
+
+.image1{
+    width:50%;
+    box-sizing:border-box;
+    float: left;
+}
+/* 可多次使用in HTML */
+
+#image2{
+    width:50%;
+    box-sizing:border-box;
+    float: left;
+}

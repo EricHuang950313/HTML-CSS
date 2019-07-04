@@ -1,0 +1,22 @@
+.a{
+    width:90%;
+    border:solid;
+    position:relative;
+    overflow:hidden;
+    left:5%;
+}
+
+#a{
+    position:absolute;
+    color: white;
+    font-size:48px;
+    top:50%;
+    left:50%;
+}
+
+
+#b{
+    object-fit: cover;
+    height:100%;
+    width:100%;
+}

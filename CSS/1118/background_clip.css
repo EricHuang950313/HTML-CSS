@@ -1,0 +1,24 @@
+.a{
+    height:640px;
+    width:320px;
+    border:solid;
+    position:relative;
+    left:50%;
+    overflow:hidden;
+}
+
+#a{
+    position:absolute;
+    color: white;
+    font-size:48px;
+    top:50%;
+    left:50%;
+}
+
+#b{
+    object-fit:none;
+    object-position:100px 300px;
+    /* fill,cover:填滿 */
+    height:100%;
+    width:100%;
+}
