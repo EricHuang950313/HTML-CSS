@@ -1,0 +1,58 @@
+.a{
+    background-color:gold;
+    background-size:100%;
+    height:700px;
+    position:relative;
+}
+
+#a{
+    position:absolute;
+    color:greenyellow;
+    background-color:blue;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:5%;
+    height:100px;
+}
+
+#a:active{
+    /* hover:touch; active:klick */
+    position:absolute;
+    color:greenyellow;
+    background-color:orangered;
+    left:20%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:7%;
+    height:130px;
+    border:3px solid purple;
+    border-radius: 20px;
+    transition:5s 2s;
+}
+
+#b{
+    position:absolute;
+    color:blue;
+    background-color:greenyellow;
+    left:80%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:5%;
+    height:100px;
+    text-align:center;
+    line-height:100px;
+}
+
+#b:active{
+    position:absolute;
+    color:blue;
+    background-color:greenyellow;
+    left:90%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:5%;
+    height:100px;
+    text-align:center;
+    transition:5s 2s ease-out;
+}

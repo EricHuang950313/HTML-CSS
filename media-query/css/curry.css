@@ -1,0 +1,403 @@
+@font-face{
+    font-family: 'font';
+    src:url("../setofont.ttf");
+}
+
+#background{
+    background-image: linear-gradient(120deg, black 0%,white 100%);
+    height:3650px;
+}
+
+#homepage{
+    position:fixed;
+    right:280px;
+    top:10px;
+    z-index:999;
+}
+
+.fixed{
+    position: fixed;
+    top:0;
+    right:0;
+    width: 350px;
+    height:70px;
+    border: 5px solid #73AD21;
+    background-color: #cae8ca;
+    z-index:99;
+}
+
+#title_div{
+    width:100%;
+    margin:0;
+    height:150px;
+}
+
+#title{
+    font-family:'font';
+    color:white;
+    font-size:110px;
+    margin:0;
+    position:absolute;
+    top:25px;
+    left:25%;
+    text-align:center;
+}
+
+#sec_1{
+    height:350px;
+}
+
+#curry_img_div{
+    position:relative;
+    width:25%;
+    float:left;
+    height:350px;
+}
+
+#curry_img{
+    position:absolute;
+    width:90%;
+    border-style:outset;
+    top:25px;
+    left:15px;
+}
+
+#number_div{
+    position:relative;
+    width:8%;
+    float:left;
+    height:350px;
+}
+
+#number{
+    position:absolute;
+    color:yellow;
+    font-family: 'font';
+    font-size: 90px;
+    left:10px;
+}
+
+#info_div{
+    position:relative;
+    width:45%;
+    float:left;
+    height:350px;
+}
+
+#info{
+    position:absolute;
+    color:white;
+    top:10px;
+    font-family: 'Varela Round', sans-serif;
+    font-size:42px;
+    margin:0;
+}
+
+#gsw_pic_div{
+    position:relative;
+    width:20%;
+    float:left;
+    height:350px;
+}
+
+#gsw_pic{
+    width:95%;
+}
+
+#sec_2{
+    position: relative;
+    height:100px;  
+}
+
+#comment_1{
+    position:absolute;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: 'Charmonman', cursive;
+    color:white;
+    font-size: 42px;
+}
+
+#sec_3{
+    height:500px;
+}
+
+#left_1{
+    float:left;
+    width:50%;
+    box-sizing:border-box;
+    height:500px;
+}
+
+#pts_div_51{
+    position:relative;
+    float:left;
+    box-sizing:border-box;
+    height:400px;
+    width:100%;
+    }
+    
+#pts_51{
+    width:85%;
+    display:block;
+    margin:0 auto;
+}
+
+#pts_comment_div{
+    position:relative;
+    box-sizing:border-box;
+    height:100px;
+    float:left;
+    width:100%;
+}
+
+#pts_comment{
+    position:absolute;
+    color:white;
+    font-size: 32px;
+    font-family: 'Varela Round', sans-serif;
+    left:12%;
+    margin:0;
+}
+
+#left_2{
+    float:left;
+    width:50%;
+    box-sizing:border-box;
+    height:500px;
+}
+
+#Performance_div{
+    float:left;
+    height:100px;
+    width:100%;
+}
+
+#Performance{
+    color:orange;
+    font-family:'font';
+    font-size:85px;
+}
+
+#stats_div{
+    position:relative;
+    float:left;
+    height:395px;
+    width:50%;
+    box-sizing:border-box;
+}
+
+#stats{
+    position:absolute;
+    color:white;
+    font-family:'font';
+    font-size:48px;
+    top:5%;
+    left:5%;
+    margin:0;
+}
+
+#stat_div{
+    position:relative;
+    float:left;
+    width:50%;
+    box-sizing:border-box;
+    height:395px;
+    
+}
+
+#stat{
+    position:absolute;
+    margin:0;
+    top:15%;
+    color:white;
+    font-family:'font';
+    font-size:24px;
+}
+
+#sec_4{
+    width:100%;
+    height:630px;
+}
+
+#top_div{
+    float:left;
+    width:100%; 
+}
+
+#top{
+    color:lightskyblue;
+    font-size:80px;
+    font-family:'Unlock', cursive;
+    display: block;
+    margin:0 auto;
+    width:60%;
+}
+
+.box_div{
+    float:left;
+    width:100%;
+    height:530px;
+}
+
+.box{
+    float:left;
+    width:100%;
+    height:100px;
+}
+
+.boxp{
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    color:white;
+    font-size:45px;
+    width:90%;
+    display:block;
+    margin:0 auto;
+}
+
+#sec_5{
+    width:100%;
+    height:620px;
+}
+
+#left_1_5{
+    width:55%;
+    height:510px;
+    float:left;
+}
+
+#how_div{
+    height:100px;
+    float:left;
+    width:100%;
+}
+
+#how{
+    color:yellow;
+    font-size:70px;
+    font-family: 'Staatliches', cursive;
+    margin:0;
+    padding:0 50px;
+
+}
+
+#in_div{
+    height:510px;
+    position:relative;
+}
+
+#inp{
+    position:absolute;
+    color:white;
+    font-size:28px;
+    left:5%;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+#left_2_5{
+    width:44%;
+    height:510px;
+    float:left;
+}
+
+#clip2{
+    height:380px;
+    width:100%;
+}
+
+#clip2_comment{
+    height:120px;
+    width:100%;
+}
+
+#clip2_commentp{
+    font-family: 'Varela Round', sans-serif;
+    color:black;
+    font-size:48px;
+    margin:0;
+    width:30%;
+    display:block;
+    margin:0 auto;
+}
+
+#sec_6{
+    width:100%;
+    height:660px;
+}
+
+#Comments_t_div{
+    width:100%;
+    height:100px;
+}
+
+#Commentst{
+    font-family: 'Varela Round', sans-serif;
+    font-size:80px;
+    left:15%;
+    margin:0;
+    padding:0px 20px;
+}
+
+#cdiv{
+    height:550px;
+    position:relative;
+}
+
+#insidep{
+    font-family: 'Varela Round', sans-serif;
+    color:black;
+    font-size:32px;
+    margin:0;
+    padding:0px 20px;
+}
+
+#pic{
+    position:absolute;
+    top:170px;
+    right:5%;
+    width: 35%;
+    margin:0;
+}
+
+#sec_7{
+    height:500px;
+    width:100%;
+}
+
+#td{
+    height:100px;
+    width:100%;
+}
+
+#tp{
+    font-family:'Unlock', cursive;
+    color:yellow;
+    font-size:80px;
+    margin:0;
+    padding:0px 20px;
+}
+
+.Clip_div_l{
+    width:25%;
+    height:400px;
+    box-sizing:border-box;
+    float:left;
+}
+
+.Clip_l{
+    width:90%;
+    margin:15px;
+}
+
+.small{
+    font-size:1em;
+}
+
+@media screen and (max-width:400pt){
+    .small{
+        font-size: 0.5em;
+    }
+}

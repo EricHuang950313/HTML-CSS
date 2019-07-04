@@ -1,0 +1,67 @@
+
+* {
+  vertical-align: top;
+  font-family: 微軟正黑體;
+}
+
+.container {
+  font-size: 0px;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  border: solid 3px black;
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+}
+.block p {
+  font-size: 15px;
+}
+.block .icon {
+  width: 30%;
+  min-width: 200px;
+}
+.block h4 {
+  text-align: center;
+}
+
+
+
+.a, .g {
+  width: 100%;
+}
+
+.b {
+  width: 70%;
+}
+
+.c, .f {
+  width: 30%;
+}
+
+.d, .e {
+  width: 35%;
+}
+
+@media screen and (max-width: 800px) {
+  .b {
+    width: 100%;
+    color:red;
+  }
+
+  .c, .d, .e, .f {
+    width: 50%;
+  }
+ 
+}
+@media screen and (max-width: 400px) {
+  .b, .c, .d, .e, .f {
+    width: 100%;
+  }
+}
