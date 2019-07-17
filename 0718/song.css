@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'font';
+    src:url("./setofont.ttf");
+}
+
+
+#p{
+    font-family:'font';
+    font-size:48px;
+    top:640px;
+    right:140px;
+    margin:0;
+    position:absolute;
+}

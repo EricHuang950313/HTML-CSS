@@ -1,0 +1,18 @@
+@font-face{
+    font-family: 'font';
+    src:url("./setofont.ttf");
+}
+
+#bg{background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+#a{
+    font-family: "font";
+    font-size:120px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color:lightyellow;
+    margin: 0;
+}
